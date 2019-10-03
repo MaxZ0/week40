@@ -33,11 +33,10 @@ label {
 body {
 	background-color: lightblue
 }
-
 label, textarea {
-	font-size: .8rem;
 	letter-spacing: 1px;
 }
+
 
 textarea {
 	padding: 10px;
@@ -48,7 +47,46 @@ textarea {
 }
 
 label  {
-	display: block;
+
 	margin-bottom: 10px;
 }
 
+
+
+#form-center {
+	left: 500px;
+	top: 400px;
+	margin-left: -25;
+	position: absolute;
+	margin-top: -25;
+}
+
+ul {
+	align-self: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: rgb(5, 69, 88);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #999;
+}
+
+.active {
+	background-color:rgb(70, 231, 243);
+
+}
