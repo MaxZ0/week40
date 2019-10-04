@@ -1,12 +1,12 @@
 .center {
 	display: block;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	width: 300px;
 }
 
-form.font1 {font-family: Verdana, Geneva, Tahoma, sans-serif
-
+form.font1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 form.form1 {
@@ -18,11 +18,12 @@ form.form1 {
 }
 
 div.form1 {
-display: table-row;
+	display: table-row;
 }
 
-label, input {
-	
+label,
+input {
+
 	margin-bottom: 10px;
 }
 
@@ -33,7 +34,9 @@ label {
 body {
 	background-color: lightblue
 }
-label, textarea {
+
+label,
+textarea {
 	letter-spacing: 1px;
 }
 
@@ -46,7 +49,7 @@ textarea {
 	box-shadow: 1 1 1 #999;
 }
 
-label  {
+label {
 
 	margin-bottom: 10px;
 }
@@ -87,6 +90,6 @@ li a:hover {
 }
 
 .active {
-	background-color:rgb(70, 231, 243);
+	background-color: rgb(70, 231, 243);
 
 }

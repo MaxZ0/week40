@@ -57,6 +57,18 @@ main {
 	width: 0%;
 }
 
+
+.main-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 30%;
+}
+
+.main-right {
+	width: 0%;
+}
+
 #form-center {
 	left: 500px;
 	top: 400px;
